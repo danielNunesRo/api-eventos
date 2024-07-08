@@ -32,6 +32,7 @@ public class EventService {
 	
 	
 	public Event createEvent(EventRequestDTO data) {
+		
 		String imgUrl = null;
 		
 		if(data.image() != null) {
